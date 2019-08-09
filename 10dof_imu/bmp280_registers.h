@@ -1,0 +1,14 @@
+//
+// Created by marc on 09.08.19.
+//
+#ifndef INC_10DOF_IMU_BMP280_REGISTERS_H
+#define INC_10DOF_IMU_BMP280_REGISTERS_H
+
+#endif //INC_10DOF_IMU_BMP280_REGISTERS_H
+
+
+typedef enum{
+    BMP280_REGISTER_ID = 0xD0,
+    BMP280_REGISTER_TEMPERATUR_MESTYPE = 0xF4, // 001 default
+    BMP280_REGISTER_TEMP = 0xFC
+}bmp280_registers;
